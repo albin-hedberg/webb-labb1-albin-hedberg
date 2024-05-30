@@ -1,0 +1,40 @@
+body {
+  font-size: 1.25em;
+}
+
+footer {
+  border-top: 1px solid lightgray;
+  padding: 1em;
+}
+
+#fortuneCookieImg {
+  width: 2.5em;
+}
+
+#fortuneCookieAdvice {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.5em;
+  padding: 0.25em;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
+}
+
+#welcome-background {
+  background-image: url("../img/inside.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#welcome-text {
+  background-color: rgb(255, 255, 255, 0.9);
+  padding: 1em;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://api.adviceslip.com/advice" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <link rel="stylesheet" href="../css/styleAbout.css" />
+    <script defer src="../js/footer.js"></script>
+    <title>Om oss - Pizzeria!</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm border-bottom border-muted">
+        <div class="container">
+          <a
+            class="navbar-brand border-end pe-3"
+            href="../index.html"
+            title="Hem"
+          >
+            Mama Mia, Pizzeria!
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+            title="Meny"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Hem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-danger" href="./about.html"
+                  >Om oss</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./products.html">Produkter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="row mt-2 mb-2">
+        <div class="col-lg">
+          <h1>Om Oss:</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+            minima dolorem laborum eveniet pariatur rem necessitatibus
+            blanditiis repellendus sunt quisquam adipisci quae corrupti non
+            vitae, recusandae rerum voluptatem commodi perferendis.
+          </p>
+          <p>
+            Blanditiis aut quos, esse quo praesentium expedita mollitia,
+            delectus recusandae eaque voluptas cumque similique libero minima
+            fugiat distinctio fuga voluptatem? Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Magni, voluptatibus.
+          </p>
+          <p>
+            Asperiores, tempora reprehenderit dolores ut illo impedit quia
+            ducimus quis aperiam quidem culpa exercitationem ex, id eos
+            provident illum iusto vero hic? Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Ratione repudiandae facilis saepe nemo
+            totam doloribus voluptatem quo vel est deleniti asperiores debitis
+            omnis vitae ab, soluta laborum fugit consequuntur delectus.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg bg-warning bg-gradient p-5">
+          <h1>Kontakt:</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis quod
+            amet eaque voluptas, eius rerum cum ab totam quisquam explicabo,
+            reiciendis, asperiores magnam corrupti tempore? Veniam voluptates
+            incidunt et autem.
+          </p>
+          <ul>
+            <li>Järntorget</li>
+            <li>413 04 Göteborg</li>
+            <li>031-123 45 67</li>
+            <li>pizza@goteborg.se</li>
+          </ul>
+        </div>
+
+        <div class="col-lg bg-success bg-gradient text-light p-5">
+          <h1>Karta:</h1>
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=j%C3%A4rntorget&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                title="Kartvy"
+              ></iframe
+              ><style></style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="mt-4 bg-light bg-gradient">
+      <div class="container mb-4">
+        <p class="text-muted">
+          <img
+            id="fortuneCookieImg"
+            src="../img/fortune-cookie.webp"
+            alt="Icon"
+          />
+          Lyckokakan säger:
+        </p>
+        <p
+          id="fortuneCookieAdvice"
+          class="border-start border-muted border-4"
+        ></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+body {
+  font-size: 1.25em;
+}
+
+footer {
+  border-top: 1px solid lightgray;
+  padding: 1em;
+}
+
+#fortuneCookieImg {
+  width: 2.5em;
+}
+
+#fortuneCookieAdvice {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.5em;
+  padding: 0.25em;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+iframe {
+  width: 600px;
+  height: 450px;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}

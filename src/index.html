@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://api.adviceslip.com/advice" />
+    <link rel="stylesheet" href="./css/styleIndex.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script defer src="./js/footer.js"></script>
+    <title>Hem - Pizzeria!</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm border-bottom border-muted">
+        <div class="container">
+          <a
+            class="navbar-brand border-end pe-3"
+            href="./index.html"
+            title="Hem"
+          >
+            Mama Mia, Pizzeria!
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+            title="Meny"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-danger" href="./index.html"
+                  >Hem</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/about.html">Om oss</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/products.html">Produkter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="welcome-background">
+      <div class="container">
+        <div class="row">
+          <div id="welcome-text" class="mt-5 mb-5 text-center">
+            <h1 class="text-shadow">Välkommen till</h1>
+            <h1 class="text-shadow">Mama Mia, Pizzeria!</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              provident dignissimos harum iusto fugiat deleniti facilis magnam?
+              Expedita laboriosam dolorum esse odit explicabo corporis molestiae
+              aut tempora cumque. Quaerat, modi. Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Ad nobis animi fugit voluptatum
+              sequi, fuga culpa.
+            </p>
+            <p>
+              Ipsa consequatur amet commodi, id quae eos. Quo, ab? Tempore
+              provident dolorum cum quibusdam? Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Debitis repellendus libero tenetur
+              suscipit pariatur minima placeat laborum natus voluptates odit
+              repellat reiciendis nobis sapiente reprehenderit, sit incidunt ut
+              doloribus alias.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="container mt-4">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card m-auto p-4">
+            <img
+              class="card-img-top rounded-circle"
+              loading="lazy"
+              src="./img/pizza.webp"
+              alt="Bild på pizza."
+            />
+            <div class="card-body">
+              <h2 class="card-title text-danger text-shadow">Pizza</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+                accusamus soluta deserunt animi alias, nisi culpa incidunt, rem
+                corporis inventore officiis distinctio voluptatibus optio
+                aperiam dicta, obcaecati tempore. Vero, culpa?
+              </p>
+              <a href="./html/products.html" class="btn btn-danger">Se mer »</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="card m-auto p-4">
+            <img
+              class="card-img-top rounded-circle"
+              loading="lazy"
+              src="./img/drink.webp"
+              alt="Bild på dricka."
+            />
+            <div class="card-body">
+              <h2 class="card-title text-success text-shadow">Dricka</h2>
+              <p class="card-text">
+                Aliquid natus vero labore doloremque aut mollitia non quidem
+                doloribus quod magni, quaerat excepturi necessitatibus illo
+                expedita illum itaque vel pariatur? Quos. Lorem ipsum dolor sit
+                amet consectetur adipisicing elit.
+              </p>
+              <a
+                href="./html/products.html#drink-products"
+                class="btn btn-success"
+                >Se mer »</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="card m-auto p-4">
+            <img
+              class="card-img-top rounded-circle"
+              loading="lazy"
+              src="./img/pizza-box.webp"
+              alt="Bild på pizza i låda."
+            />
+            <div class="card-body">
+              <h2 class="card-title text-warning text-shadow">Leverans</h2>
+              <p class="card-text">
+                Tempore voluptate eligendi dolorum eum suscipit placeat unde
+                eius, tempora saepe libero consequuntur sint velit? Eius
+                voluptatem cupiditate tempora quasi atque error? Lorem ipsum,
+                dolor sit amet consectetur adipisicing elit.
+              </p>
+              <a href="./html/about.html" class="btn btn-warning">Se mer »</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="mt-4 bg-light bg-gradient">
+      <div class="container mb-4">
+        <p class="text-muted">
+          <img
+            id="fortuneCookieImg"
+            loading="lazy"
+            src="./img/fortune-cookie.webp"
+            alt="Icon"
+          />
+          Lyckokakan säger:
+        </p>
+        <p
+          id="fortuneCookieAdvice"
+          class="border-start border-muted border-4"
+        ></p>
+      </div>
+    </footer>
+  </body>
+</html>
