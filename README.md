@@ -1,4 +1,4 @@
-### [Länk till GitHub Pages](https://albin-hedberg.github.io/Webb_Labb1/src/index.html)
+### [Länk till labben på GitHub Pages](https://albin-hedberg.github.io/Webb_Labb1/src/index.html)
 
 <br/>
 
